@@ -1,3 +1,20 @@
+import a from './hog-imgs/mudblood.jpg'
+import b from './hog-imgs/porkchop.jpg'
+import c from './hog-imgs/cherub.jpg'
+import d from './hog-imgs/piggy_smalls.jpg'
+import e from './hog-imgs/trouble.jpg'
+import f from './hog-imgs/sobriety.jpg'
+import g from './hog-imgs/rainbowdash.jpg'
+import h from './hog-imgs/truffleshuffle.jpg'
+import i from './hog-imgs/bay_of_pigs.jpg'
+import j from './hog-imgs/the_prosciutto_concern.jpg'
+import k from './hog-imgs/galaxy_note.jpg'
+import l from './hog-imgs/leggo_my_eggo.jpg'
+import m from './hog-imgs/augustus_gloop.jpg'
+
+
+
+
 const hogs = [
   {
     name: 'Mudblood',
@@ -5,7 +22,7 @@ const hogs = [
     greased: false,
     'weight as a ratio of hog to LG - 24.7 Cu. Ft. French Door Refrigerator with Thru-the-Door Ice and Water': 2.0,
     'highest medal achieved': 'bronze',
-    imgUrl: '../hog-imgs/mudblood.jpg'
+    imgUrl: a
 
   },
   {
@@ -14,7 +31,7 @@ const hogs = [
     greased: true,
     'weight as a ratio of hog to LG - 24.7 Cu. Ft. French Door Refrigerator with Thru-the-Door Ice and Water': 1.6,
     'highest medal achieved': 'silver',
-    imgUrl: '../hog-imgs/porkchop.jpg'
+    imgUrl: b
   },
   {
     name: 'Cherub',
@@ -22,7 +39,7 @@ const hogs = [
     greased: false,
     'weight as a ratio of hog to LG - 24.7 Cu. Ft. French Door Refrigerator with Thru-the-Door Ice and Water': 0.7,
     'highest medal achieved': 'gold',
-    imgUrl: './hog-imgs/cherub.jpg'
+    imgUrl: c
   },
   {
     name: 'Piggy smalls',
@@ -30,7 +47,7 @@ const hogs = [
     greased: true,
     'weight as a ratio of hog to LG - 24.7 Cu. Ft. French Door Refrigerator with Thru-the-Door Ice and Water': 5.1,
     'highest medal achieved': 'platinum',
-    imgUrl: './hog-imgs/piggy_smalls.jpg'
+    imgUrl: d
   },
   {
     name: 'Trouble',
@@ -38,7 +55,7 @@ const hogs = [
     greased: true,
     'weight as a ratio of hog to LG - 24.7 Cu. Ft. French Door Refrigerator with Thru-the-Door Ice and Water': 1.7,
     'highest medal achieved': 'gold',
-    imgUrl: './hog-imgs/trouble.jpg'
+    imgUrl: e
   },
   {
     name: 'Sobriety',
@@ -46,7 +63,7 @@ const hogs = [
     greased: false,
     'weight as a ratio of hog to LG - 24.7 Cu. Ft. French Door Refrigerator with Thru-the-Door Ice and Water': 2.2,
     'highest medal achieved': 'silver',
-    imgUrl: './hog-imgs/sobriety.jpg'
+    imgUrl: f
   },
   {
     name: 'Rainbowdash',
@@ -54,7 +71,7 @@ const hogs = [
     greased: false,
     'weight as a ratio of hog to LG - 24.7 Cu. Ft. French Door Refrigerator with Thru-the-Door Ice and Water': 3.7,
     'highest medal achieved': 'wood',
-    imgUrl: './hog-imgs/rainbowdash.jpg'
+    imgUrl: g
   },
   {
     name: 'TruffleShuffle',
@@ -62,7 +79,7 @@ const hogs = [
     greased: true,
     'weight as a ratio of hog to LG - 24.7 Cu. Ft. French Door Refrigerator with Thru-the-Door Ice and Water': 4.0,
     'highest medal achieved': 'gold',
-    imgUrl: './hog-imgs/truffleshuffle.jpg'
+    imgUrl: h
   },
   {
     name: 'Bay of Pigs',
@@ -70,7 +87,7 @@ const hogs = [
     greased: false,
     'weight as a ratio of hog to LG - 24.7 Cu. Ft. French Door Refrigerator with Thru-the-Door Ice and Water': 2.8,
     'highest medal achieved': 'diamond',
-    imgUrl: './hog-imgs/bay_of_pigs.jpg'
+    imgUrl: i
   },
   {
     name: 'The Prosciutto Concern',
@@ -78,7 +95,7 @@ const hogs = [
     greased: false,
     'weight as a ratio of hog to LG - 24.7 Cu. Ft. French Door Refrigerator with Thru-the-Door Ice and Water': 2.3,
     'highest medal achieved': 'bronze',
-    imgUrl: './hog-imgs/the_prosciutto_concern.jpg'
+    imgUrl: j
   },
   {
     name: 'Galaxy Note',
@@ -86,7 +103,7 @@ const hogs = [
     greased: true,
     'weight as a ratio of hog to LG - 24.7 Cu. Ft. French Door Refrigerator with Thru-the-Door Ice and Water': 1.9,
     'highest medal achieved': 'diamond',
-    imgUrl: './hog-imgs/galaxy_note.jpg'
+    imgUrl: k
   },
   {
     name: 'Leggo My Eggo',
@@ -94,7 +111,7 @@ const hogs = [
     greased: true,
     'weight as a ratio of hog to LG - 24.7 Cu. Ft. French Door Refrigerator with Thru-the-Door Ice and Water': 3.3,
     'highest medal achieved': 'platinum',
-    imgUrl: './hog-imgs/leggo_my_eggo'
+    imgUrl: l
   },
   {
     name: 'Augustus Gloop',
@@ -102,7 +119,7 @@ const hogs = [
     greased: true,
     'weight as a ratio of hog to LG - 24.7 Cu. Ft. French Door Refrigerator with Thru-the-Door Ice and Water': 4.1,
     'highest medal achieved': 'wood',
-    imgUrl: './hog-imgs/augustus_gloop.jpg'
+    imgUrl: m
   }
 ];
 

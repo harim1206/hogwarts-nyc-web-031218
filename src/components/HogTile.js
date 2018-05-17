@@ -1,21 +1,17 @@
 import React, { Component } from 'react'
-import hogs from '../porkers_data';
 
+import HogDetails from './HogDetails.js'
 
 class HogTile extends Component{
 
-
   render(){
-    // debugger
+    console.log(this.props);
     return (
-
       <div className="ui eight wide column">
         <p> {this.props.name} </p>
-        <p> {this.props.specialty} </p>
-        <p> {this.props.greased.toString()} </p>
+        <img src={this.props.url} alt="pig pic" />
+        <HogDetails specialty={this.props.specialty} greased={this.props.greased} weight={this.props.weight} medal={this.props.medal}/>
       </div>
-
-
     )
   }
 }
